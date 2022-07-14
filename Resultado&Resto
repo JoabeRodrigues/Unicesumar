@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	//Declarando variáveis
+	
+	int D,d,q,r;
+	
+	//Mensagem para o usuário
+	
+	printf("\nInsira o dividendo: ");
+	scanf("%d", &D);
+	printf("\nInsira o divisor: ");
+	scanf("%d", &d);
+	
+	//Calculo
+	
+	q = D / d;
+	printf("\nO resultado da divisão é %d \n" ,q);
+	
+	r = D % d;
+	printf("\nO resto da divisão é %d",r);
+	
+	return(0);
+}
